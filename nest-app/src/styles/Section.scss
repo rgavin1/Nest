@@ -1,0 +1,35 @@
+.section-container{
+
+    .section-title {
+        font-size: 2rem;
+        padding-left: 5%;
+        margin: 10px 0;
+        text-transform: uppercase;
+    }
+
+    .section-content{
+        width: 70%;
+        margin-left: auto;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        text-align: justify;
+        font-size: 1em;
+        line-height: 140%;
+    }
+
+    .sectionOne-content-container {
+
+    }
+
+    .sectionOne-image-container {
+        width: 100%;
+        height: 100%;
+
+        img {
+            width: inherit;
+            height: inherit;
+            object-fit: scale-down;
+            object-position: center;
+        }
+    }
+}

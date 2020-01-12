@@ -1,11 +1,36 @@
 import React from 'react';
+import SectionOneImage from '../../assets/Hero/hero-home-479.png';
 
 const Section = () => {
     return (
-            <div>
-                <h1>Section 1</h1>
-                <h1>Section 2</h1>
-                <h1>Section 3</h1>
+            <div className="section-container">
+                <div className="sectionOne-content-container">
+                    <div className="section-title">Lorem ipsum</div>
+                    <div className="section-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra mauris in aliquam sem.
+                    </div>
+                    <div className="sectionOne-image-container">
+                        <img src={SectionOneImage} alt="" />
+                    </div>
+                </div>
+                <div className="sectionOne-content-container">
+                    <div className="section-title">Lorem ipsum</div>
+                    <div className="section-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra mauris in aliquam sem.
+                    </div>
+                    <div className="sectionOne-image-container">
+                        <img src={SectionOneImage} alt="" />
+                    </div>
+                </div>
+                <div className="sectionOne-content-container">
+                    <div className="section-title">Lorem ipsum</div>
+                    <div className="section-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra mauris in aliquam sem.
+                    </div>
+                    <div className="sectionOne-image-container">
+                        <img src={SectionOneImage} alt="" />
+                    </div>
+                </div>
             </div>
         )
 }
