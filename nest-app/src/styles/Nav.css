@@ -12,12 +12,15 @@
       -ms-flex-align: center;
           align-items: center;
   margin: 8%;
+  z-index: 6;
 }
 
 .nav-container .brand-container {
   text-align: center;
   font-family: 'Orbitron', sans-serif;
   color: #B3A9A6;
+  border: solid 2px;
+  padding: 10px 7px;
 }
 
 .nav-container .brand-container .logo {
