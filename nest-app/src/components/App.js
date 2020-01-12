@@ -3,8 +3,14 @@ import '../styles/App.scss';
 
 function App() {
   return (
-    <div >
-  
+    <div className="App">
+      <div className="hamburger-container">
+        <div className="menu">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
     </div>
   );
 }

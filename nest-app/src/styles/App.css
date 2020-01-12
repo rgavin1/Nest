@@ -1,1 +1,74 @@
-/* No CSS *//*# sourceMappingURL=App.css.map */
+.hamburger-container {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.hamburger-container .menu {
+  width: 80%;
+  height: 80%;
+  background-color: black;
+  position: relative;
+}
+
+.hamburger-container .menu div:nth-child(1) {
+  background-color: white;
+  width: 80%;
+  height: 2px;
+  margin: auto;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.hamburger-container .menu div:nth-child(1):hover {
+  top: 50%;
+}
+
+.hamburger-container .menu div:nth-child(2) {
+  background-color: white;
+  width: 50%;
+  height: 2px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.hamburger-container .menu div:nth-child(2):hover {
+  display: none;
+}
+
+.hamburger-container .menu div:nth-child(3) {
+  background-color: white;
+  width: 80%;
+  height: 2px;
+  margin: auto;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.hamburger-container .menu div:nth-child(3):hover {
+  top: 50%;
+  left: 10%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+/*# sourceMappingURL=App.css.map */
