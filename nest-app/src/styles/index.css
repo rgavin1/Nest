@@ -1,12 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Orbitron|Raleway&display=swap");
+.App {
+  position: relative;
+}
+
+nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 .brand-container {
-  background: pink;
   width: 25%;
-  height: 15%;
   text-align: center;
-  position: absolute;
-  top: 5%;
-  left: 5%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,15 +29,21 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: "Orbitron", sans-serif;
+  color: #B3A9A6;
+}
+
+.brand-container .brand {
+  font-size: 3.75rem;
+  font-weight: bold;
 }
 
 .hamburger-container {
   position: absolute;
-  top: 5%;
-  right: 5%;
+  top: 15%;
+  right: 10%;
   width: 50px;
   height: 50px;
-  background-color: pink;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,6 +63,7 @@
 }
 
 .hamburger-container .menu {
+  color: #7C7A7A;
   font-size: 2rem;
 }
 
@@ -60,5 +76,6 @@
 
 body, html {
   margin: 0;
+  position: relative;
 }
 /*# sourceMappingURL=index.css.map */
