@@ -1,6 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Orbitron|Raleway&display=swap");
+.brand-container {
+  background: pink;
+  width: 25%;
+  height: 15%;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .hamburger-container {
-  width: 100px;
-  height: 100px;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 50px;
+  height: 50px;
   background-color: pink;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,38 +38,24 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
   cursor: pointer;
+}
+
+@media screen and (min-width: 970px) {
+  .hamburger-container {
+    display: none;
+  }
 }
 
 .hamburger-container .menu {
-  background: black;
-  width: 80%;
-  height: 5px;
-  border-radius: 100px;
-  margin-bottom: 10%;
-  cursor: pointer;
-}
-
-.hamburger-container .menu::after {
-  content: '';
-  width: inherit;
-  height: 5px;
-  border-radius: 100px;
-  background-color: white;
-  display: inline-block;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
-}
-
-.hamburger-container .menu::after:hover::after {
-  background-color: green;
+  font-size: 2rem;
 }
 
 *, *::after, *::before {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   margin-top: 0;
+  font-size: 16px;
 }
 
 body, html {
