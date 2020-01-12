@@ -1,0 +1,6 @@
+*, *::after, *::before {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  margin-top: 0;
+}
+/*# sourceMappingURL=index.css.map */
