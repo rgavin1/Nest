@@ -1,8 +1,6 @@
 import React from 'react';
 import '../styles/App.scss';
 import Navigation from './Nav';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
 import Hero from '../assets/Hero/Farmhouses-479.png';
 import { Controller, Scene } from 'react-scrollmagic';
 

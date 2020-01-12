@@ -1,8 +1,23 @@
 .nav-container {
     position: sticky;
     top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8%;
 
     .brand-container {
-        
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        color: #B3A9A6;
+
+        .logo {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+    }
+
+    .menu-container {
+        font-size: 2rem;
     }
 }
