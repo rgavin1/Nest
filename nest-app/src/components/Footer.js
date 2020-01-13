@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            Footer
+        <div className="footer">
+           Copyright &copy; 2020 Nest,LLC
         </div>
     )
 }

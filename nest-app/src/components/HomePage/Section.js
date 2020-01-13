@@ -8,7 +8,7 @@ const Section = () => {
     return (
             <div className="section-container">
                 <Controller>
-                <Scene classToggle={['.section-content', 'fade-in-right']} triggerHook="onEnter" indicators={true} >
+                <Scene classToggle={['.section-content', 'fade-in-right']} triggerHook="onEnter" >
                 <div className="sectionOne-content-container">
                     <div className="section-title">Find homes first</div>
                     <div className="section-content">
