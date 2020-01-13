@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faStream } from '@fortawesome/free-solid-svg-icons';
 
 const Nav = () => {
     return (
@@ -10,7 +10,7 @@ const Nav = () => {
                 <div>NEST</div>
             </div>
             <div className="menu-container">
-                <FontAwesomeIcon icon={faBars} />
+                <FontAwesomeIcon icon={faStream} />
             </div>
         </div>
     )

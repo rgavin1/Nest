@@ -1,0 +1,51 @@
+.icon-header {
+  font-size: 2rem;
+  text-align: center;
+  margin: 14% 0;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .5px;
+}
+
+.icon-container {
+  font-size: 9rem;
+  text-align: center;
+  margin: 15% 0;
+  color: #b69a8a;
+}
+
+.icon-title {
+  font-size: 2.25rem;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.icon-content {
+  width: 80%;
+  margin: 5% auto;
+  line-height: 140%;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-weight: 200;
+}
+
+.icon-btn {
+  font-weight: 600;
+  text-transform: uppercase;
+  border: solid 2px #7c7a7a;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2% 3%;
+  margin: auto;
+  letter-spacing: 0.75px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  color: #7C7A7A;
+}
+/*# sourceMappingURL=Icons.css.map */

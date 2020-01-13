@@ -6,7 +6,10 @@ const Hero = () => {
         <div className="jumbotron-container">
             <div className="overlay"></div>
             <img src={HeroImage} alt="" />
-            <div className="title">Title</div>
+            <div className="hero-brand-container">
+                <div className="hero-brand-logo">N</div>
+                <div className="nest-brand">NEST</div>
+            </div>
         </div>
     )
 }

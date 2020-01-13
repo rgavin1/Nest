@@ -5,30 +5,39 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 8%;
   z-index: 6;
+  background-color: #d0d0d0ed;
+  width: 100%;
+  margin: auto;
+  padding: 3% 12%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 10px 1px #949494;
+          box-shadow: 0px 2px 10px 1px #949494;
 }
 
 .nav-container .brand-container {
   text-align: center;
   font-family: 'Orbitron', sans-serif;
-  color: #B3A9A6;
+  color: #ffffff;
   border: solid 2px;
-  padding: 10px 7px;
+  padding: 6px 5px;
+  margin-right: auto;
 }
 
 .nav-container .brand-container .logo {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
 .nav-container .menu-container {
   font-size: 2rem;
+  color: #ffffff;
 }
 /*# sourceMappingURL=Nav.css.map */

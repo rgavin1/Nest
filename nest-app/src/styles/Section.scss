@@ -3,9 +3,13 @@
     .section-title {
         font-size: 2rem;
         padding-left: 5%;
-        margin: 10px 0;
-        text-transform: uppercase;
-        font-family: 'Orbitron', sans-serif;
+        margin: 10% 0;
+        width: fit-content;
+        text-transform: capitalize;
+        font-family: 'Noto Serif', serif;
+        border-bottom: solid 0.25px;
+        font-style: italic;
+        letter-spacing: 5px;
     }
 
     .section-content{
@@ -16,6 +20,16 @@
         text-align: justify;
         font-size: 1em;
         line-height: 140%;
+        letter-spacing: 3px;
+        font-weight: 500;
+        opacity: 0;
+        transform: translateX(100%);
+        transition: all 1s ease-in-out;
+
+        &.fade-in-right {
+            opacity: 1;
+            transform: translateX(0);
+        }
         
     }
 
@@ -26,6 +40,16 @@
     .sectionOne-image-container {
         width: 100%;
         height: 100%;
+        position: relative;
+
+        .section-overlay {
+            background-color: #d0d0d057;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
 
         img {
             width: inherit;
